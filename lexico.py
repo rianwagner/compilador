@@ -1,6 +1,5 @@
 import re
 
-# Definição dos padrões de tokens
 ESPECIFICACAO_TOKENS = [
     ('NUMERO_DECIMAL', r'\d+\.\d+'),
     ('NUMERO_INTEIRO', r'\d+'),
