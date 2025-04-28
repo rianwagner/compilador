@@ -1,0 +1,11 @@
+inicio {
+    escreva("Olá Mundo!");
+    x = 10;
+    y = 5.5;
+    se (x > y) {
+        escreva("x é maior");
+    } senao {
+        escreva("y é maior");
+    }
+}
+fim
