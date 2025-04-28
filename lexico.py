@@ -12,7 +12,7 @@ ESPECIFICACAO_TOKENS = [
     ('COMENTARIO', r'\#.*'),
     ('ESPACO', r'[ \t]+'),
     ('NOVA_LINHA', r'\n'),
-    ('ERRO', r'.'),  # Qualquer outro caractere
+    ('ERRO', r'.'),
 ]
 
 PALAVRAS_RESERVADAS = {'inicio', 'fim', 'se', 'senao', 'enquanto', 'escreva'}
